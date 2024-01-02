@@ -1,12 +1,15 @@
 # README
 
-This purpose of this application is to serve you with Rails 7 App with devise pre-configured.
+The purpose of this application is to serve you with Rails 7 App with devise pre-configured.
 
 ### Setup
 
 Fork your own project from the Rails-Seven-Devise-Template. Clone it. Then, all you have to do to get started is:
 
 ```
+git clone https://github.com/rakesh-050791/Rails-Seven-Devise-Template.git
+cd rails-seven-devise-template
+
 bundle install
 rake db:migrate
 ```
@@ -15,7 +18,6 @@ And then inside project repo, to run the server
 
 ```
 rails s
-
 ```
 
 ### Versions
@@ -37,5 +39,5 @@ rails s
 * Directly accessible (without devise)
   * [http://localhost:3000/homes/about]()
 * In-direct (only after devise sign up or sign in)
-  * [http://localhost:3000]() 
+  * [http://localhost:3000]()
   * [http://localhost:3000/homes/index]()
